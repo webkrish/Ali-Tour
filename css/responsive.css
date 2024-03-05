@@ -1,0 +1,208 @@
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    margin-right: 0;
+    width: 120px;
+  }
+
+  .navbar {
+    height: 49px;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  .sidebar.close {
+    left: -100%;
+  }
+
+  .search_bar {
+    display: none;
+  }
+
+  .hoverable .nav_link {
+    justify-content: left;
+  }
+
+  .sidebar.close .bottom_content {
+    left: -100%;
+  }
+
+  .sidebar {
+    margin-top: 50px;
+  }
+
+  .details {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #sidebarOpen {
+    font-size: 25px;
+    display: block;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    border: 0;
+    color: var(--grey-color);
+  }
+  .update-sec .green-btn {
+    margin-left: -3px;
+  }
+  .hoverable .nav_link {
+    justify-content: left;
+  }
+  .w-80{
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .w-80 .d-flex{
+    flex-wrap: wrap;
+  }
+  #booking-o{
+    margin: 5px 0;
+  }
+  .input-group {
+    margin: 10px 0;
+  }
+
+  .my-item {
+    display: none;
+  }
+
+  .container-c {
+    padding: 0;
+  }
+
+  .details {
+    width: 88%;
+  }
+
+  .one {
+    margin: 10px 0;
+    width: 315px;
+  }
+
+  .d-view {
+    display: none;
+  }
+
+  .m-view {
+    display: block;
+    padding: 20px !important;
+    margin: 0 !important;
+  }
+
+  .pagination {
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .first {
+    justify-content: center !important;
+  }
+
+  .one {
+    margin: 10px;
+    width: 100%;
+  }
+  .w-80 .d-flex{
+    justify-content: center;
+  }
+  #booking-o{
+    width: 100%;
+  }
+  .c-input{
+    margin: 5px 0;
+    width: 100%;
+  }
+  .d-flex a{
+    width: 100%;
+    margin: 5px 0;
+  }
+  .c-im{
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .first {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+  }
+
+  .one {
+    margin: 10px 0;
+    /* width: 100%; */
+  }
+  .middle-sec{
+    flex-direction: column;
+  }
+  .sections{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .my-input {
+    flex-direction: column;
+  }
+
+  .c-width {
+    width: 156px;
+  }
+  .button-sec{
+    flex-direction: column;
+  }
+  .button-sec a{
+    width: 100%;
+  }
+  .files{
+    max-width: 500px;
+  }
+  .input-box{
+    width: 100%;
+  }
+  .two-sec{
+    flex-direction: column;
+  }
+  .three-sec{
+    flex-direction: column;
+  }
+  .e-three-sec{
+    flex-direction: column;
+  }
+  .input-e-sec{
+    width: 100%;
+  }
+  .input-t-sec1{
+    width: 100%;
+  }
+  .input-t-sec2{
+    width: 100%;
+  }
+  .input-t-sec3{
+    width: 100%;
+  }
+  .redio-section{
+    flex-direction: column;
+  }
+  .r-two-sec{
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .first {
+    justify-content: center !important;
+  }
+
+  .one {
+    margin: 10px 0 !important;
+  }
+}
